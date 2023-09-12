@@ -11,9 +11,12 @@
     "mongodb": "^4.4.1",
     "nodemon": "^2.0.22",
     "socket.io": "2.2.0",
+    "helmet": "3.21.1",
     "mocha": "6.2.1",
+    "mongo-sanitize": "1.0.1",
     "mongoose": "5.7.1",
-    "uuid": "^9.0.0"
+    "uuid": "^9.0.0",
+    "snyk": "1.235.0"
   },
   "scripts": {
     "start": "nodemon server.js",

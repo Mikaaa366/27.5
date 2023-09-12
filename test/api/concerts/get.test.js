@@ -102,10 +102,6 @@ describe('GET /api/concerts', () => {
         expect(res.body[0].performer).to.be.equal('Ech Beng');
 
     });
-
-
-
-
     it('/day/day should return day', async () => {
 
         const res = await request(server).get('/api/concerts/day/3');
@@ -117,10 +113,6 @@ describe('GET /api/concerts', () => {
         expect(res.body[0].performer).to.be.equal('Ech Beng');
 
     });
-
-
-
-
     after(async () => {
 
         await Concert.deleteMany({});
